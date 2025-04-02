@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav id="menu">
@@ -13,6 +14,9 @@
       <li><a href="#playlist">פלייליסט</a></li>
       <li><a href="#photos">תמונות</a></li>
       <li><a href="#about">אודות</a></li>
+      <li class="logo-item">
+        <img src="Assets/Images/logo.png" alt="לוגו של האתר" class="logo">
+      </li>
     </ul>
   </nav>
 		  
@@ -158,7 +162,6 @@
         <h1>צור קשר</h1>
       </div>
       <div class="contact-container">
-        <p>הוסיפו דרך ליצירת קשר עם שלומי שבת או איתכם על ידי מילוי הטופס:</p>
         <form class="contact-form" onsubmit="handleSubmit(event)">
           <label for="email">אימייל:</label>
           <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
